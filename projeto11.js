@@ -4,20 +4,47 @@
 // armazenar os múltiplos de 3
 // armazenar os múltiplos de 5
 //somar os resultados
-somar = (10);
+/*let limite = 102;
+let total = somar(limite);
+console.log(total)
+function somar(limite) {
+    let multiploDe3 = 0;
+    let multiploDe5 = 0;
+    for (i = 0; i <= limite; i++) {
+        if (i % 3 === 0);
+            multiploDe3 += i;
+        if (i % 5 === 0);
+            multiploDe5 += i;
+    }
+    console.log(multiploDe3 + multiploDe5);
+}; */
+
+// sem usar uma função
+/*let i = 1
+let intervalo = 10
 
 
-function somar (limite) {
-let multiploDeTres = 0;          // vamos declarar essas variáveis e atribuir um valor zero para as duas
-let multiploDeCinco = 0;
-for (i = 0; i<= limite; i++) {
-    if (i % 3 === 0)
-    multiploDeTres += i;
-    if (i % 5 === 0)
-    multiploDeCinco += i;
+while (i <= intervalo) {
+    if((i % 3 === 0) || (i % 5 === 0))
+        console.log(i)
+   i++
+   
+} */
+
+// função para somar valores de 1 até n
+function soma(n) {
+    let total = 0;
+    for (let i = 1; i <= n; i++) total += i;
+    return total;
 }
-console.log(multiploDeTres + multiploDeCinco);
+console.log(soma(5));
+
+// fazer uma função que soma valores de 1 até 10
+let valor = 10;
+function somatorio(valor) {
+    let valorTotal = 0;
+    for (let i = 1; i <= valor; i++) valorTotal +=i
+    return valorTotal
 
 }
-
-// parei em 2:03:16
+console.log(somatorio(10))
