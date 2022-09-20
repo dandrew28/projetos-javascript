@@ -1,0 +1,35 @@
+<!-- fazer em HTML um projeto de segurança virtual:
+
+Você precisa pegar o nome da pessoa que está tentando entrar naquele estabelecimento;
+precisamos perguntar a ele(a) quem a convidou para essa festa;
+precisamos de um botão na tela que, quando você clica irá acessar o seu cógigo javascript para verificar se a pessoa que está tentando entrar foi de fato convidada por quem ela diz que convidou;
+(Ex: nome da pessoa Johnson, quem o convidou para a festa? Christian. Clico no botão e o javascript verifica no meu código se aquela pessoa está dentro da lista de convidados do Christian, o meu nome está lá);
+Caso meu nome esteja, eu vou alterar a descrição de "pesquisando" para "você pode entrar";
+Caso meu nome não esteja eu vou alterar a descrição de "pesquisando" para "você não pode entrar"-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Virtual</title>
+</head>
+
+<body>
+    <h1>FESTA VIP</h1>
+    <p>Bem vindo a festa senhor(a)</p>
+    <input type="text" id='nomePessoa' placeholder="Digite seu nome">
+    <p>Quem te convidou para essa festa?</p>
+    <input type="text" id='quemConvidou' placeholder="Quem te convidou">
+    <button onclick="verificar()">verificar</button>
+    <h2>Você está permitido a entrar?</h2>
+    <!--Processando... <span></span>     poderia colocar desta forma porém vou utilizar label-->
+    <label id='pesquisando' for " ">Pesquisando...</label>
+
+    <script src="./projeto23.js"></script>
+
+</body>
+
+</html>
