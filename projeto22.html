@@ -1,0 +1,43 @@
+<!-- fazer em HTML a média entre 3 números    -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média entre três valores</title>
+</head>
+<body>
+<h1>Média entre 3 valores</h1>
+Valor 1
+<input type="number" id= 'valor1' placeholder= "primeiro valor"> <br/> <br/>
+Valor 2
+<input type="number" id= 'valor2' placeholder= "segundo valor"> <br/> <br/>
+Valor 3
+<input type="number" id= 'valor3' placeholder= "terceiro valor"> <br/> <br/>
+<button onclick ="media()">média</button> <br/><br/>
+
+
+<script>
+
+
+function media() {
+    let valor1 = document.getElementById ('valor1').value;
+let valor2 = document.getElementById ('valor2').value;
+let valor3 = document.getElementById ('valor3').value;
+
+
+let mediaDosNumeros = (Number(valor1) + Number(valor2) + Number(valor3)) /3
+
+console.log (`a média dos números é ${mediaDosNumeros}`)
+alert(`a média dos números é ${mediaDosNumeros}`)
+
+} 
+
+
+</script>
+
+    
+</body>
+</html>
