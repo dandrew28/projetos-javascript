@@ -1,0 +1,27 @@
+
+
+body {
+text-align: center;
+background: rgb(90, 155, 90);
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+color: azure;
+
+}
+ p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+ }
+  section {
+background: goldenrod;
+height: 40px;
+
+  }
+
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
