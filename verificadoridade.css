@@ -1,0 +1,36 @@
+body{
+    background: rgb(58, 118, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    
+    header {
+    
+        text-align: justify;
+    color: azure;
+    }
+    
+    section {
+      
+        background: white;
+        border-radius: 5px;
+        padding: 20px;
+      width: 800px;
+     margin: auto; 
+     box-shadow: 5px 5px 10px rgb(68, 65, 65);
+    
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        color: azure;
+        font-style: italic;
+    
+    }
+    
+    

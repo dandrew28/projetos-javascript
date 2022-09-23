@@ -1,0 +1,58 @@
+<!-- fazer um contador que tenha um início e um fim
+h1 = contagem inteligente
+p = use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.
+use section
+form
+label: valor inicial
+input: inicio da contagem
+label: valor final
+input: fim da contagem
+imput submit
+section 
+p : preencha os dados acima e aperte o botão
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cont_inteligente.css">
+</head>
+
+<body>
+
+    <h1>Contagem "inteligente"</h1>
+    <p>Use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.</p>
+    <section id="entrada">
+
+
+        <form action="#" method="get">
+            <br>
+            <label for="inicio">Valor inicial</label>
+            <input type="number" id="n1" placeholder="Insira primeiro valor"> <br>
+            <br>
+            <label for="final">Valor final</label>
+            <input type="number" id="n2" placeholder="Insira o segundo valor">
+            <br>
+            <br>
+            <input type="submit" value="Contar" formaction="javascript:contagem()">
+
+        </form>
+
+    </section>
+
+    <section id="saida">
+        <p>Preencha os dados acima e aperte o botão</p>
+
+    </section>
+
+
+    <script src="cont_inteligente.js"></script>
+
+</body>
+
+</html>

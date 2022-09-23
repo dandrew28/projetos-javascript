@@ -1,0 +1,66 @@
+<!--   verificador de idade
+
+    ano de nascimento : INPUT
+
+sexo: o masculino   o feminino
+
+botão: verificar
+
+p preencha os dados acima para ver o resultado
+
+resultado: Determinamos um homem / mulher de n anos.
+FOTO DE UM HOMEM OU MULHER
+copyright
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="verificadoridade.css">
+</head>
+
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+
+        <div id="entrada">
+
+            <p>Ano de nascimento:
+                <input type="number" name="anos" id="ano" placeholder="ano de nascimento">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="formulario" id="masc" checked>
+                <!-- para marcar um ou outro. O (name) é igual-->
+                <label for="masc">masculino</label>
+                <input type="radio" name="formulario" id="fem">
+                <label for="fem">feminino</label>
+            </p>
+        </div>
+        <p>
+            <input type="button" value="verificar" onclick="verificar()">
+        </p>
+        <div id="saida">
+            preencha os dados acima para ver o resultado
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; microsoft</p>
+
+    </footer>
+
+
+
+
+    <script src="verificadoridade.js"></script>
+</body>
+
+</html>
